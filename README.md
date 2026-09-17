@@ -1,8 +1,16 @@
 # First Lambda Function — Packaging, IAM, and Debugging
 
-An introductory AWS Lambda project covering the full lifecycle of deploying a Python function
-from scratch: packaging code and dependencies, creating the IAM execution role, deploying,
-invoking, and debugging a real runtime error.
+**Summary:** Deployed a Python Lambda function end-to-end — packaging code and dependencies,
+creating a scoped IAM execution role, and deploying and invoking the function — then
+troubleshot and resolved a real runtime error and confirmed a successful re-invocation.
+
+## Skills demonstrated
+
+- Lambda function packaging and deployment from scratch
+- IAM execution role and trust policy design for a serverless workload
+- Real-world debugging: diagnosing a runtime error from CloudWatch Logs, fixing it, and
+  validating the fix with a clean re-invocation
+- CloudWatch Logs analysis for serverless troubleshooting
 
 ## What was built
 
